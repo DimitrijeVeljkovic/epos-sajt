@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Članovi bande</title>
+    <link rel="stylesheet" href="Css/clanoviStyle.css" type="text/css">
+    <link rel="stylesheet" href="Css/layout.css" type="text/css">
+    <link rel="icon" href="Slike/ikonica.png">
+</head>
+<body>
+    <div id="div1">
+        <a href="index.html"><img src="Slike/naslov.png" id="naslovnaSlika"></a>
+    </div>
+    <div class="meni">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="sezone.html">Sezone</a></li>
+            <li><a href="zanimljivosti.html">Zanimljivosti</a></li>
+            <li><a href="clanovi.html">Članovi bande</a></li>
+          </ul>
+    </div>
+
+    <audio id="bellaciao">
+        <source src="Audio/bellaciao.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="sadrzajClanovi">
+        <div id="muzika">
+            <img src="Slike/play.png" onclick="pustiPesmu()" class="playIPause">
+            <img src="Slike/pause.png" onclick="pauzirajPesmu()" class="playIPause">
+        </div>
+        <div class="slikeClanovi">
+            <a href="profesor.html"> <img src="Slike/profesor.png" title="El Profesor"> </a> 
+            <a href="berlin.html"> <img src="Slike/berlin.jpg" title="Berlin"> </a>  
+            <a href="nairobi.html"> <img src="Slike/nairobi.jpg" title="Nairobi"> </a> 
+        </div>
+        <div class="slikeClanovi">
+            <a href="tokyo.html"> <img src="Slike/tokyo.jpg" title="Tokyo"> </a>
+            <a href="denver.html"> <img src="Slike/denver.jpg" title="Denver"> </a>  
+            <a href="rakel.html"> <img src="Slike/rakel.jpg" title="Raquel"> </a> 
+        </div>
+    </div>
+    
+    <footer>
+        <hr>
+        <div id="futer1">
+            <a href="https://www.instagram.com/lacasadepapel/" target="_blank"><img src="Slike/insta.png"></a>
+            <a href="https://www.facebook.com/lacasadepapelnetflix/" target="_blank"><img src="Slike/fb.png"></a>
+            <a href="https://twitter.com/lacasadepapel?lang=en" target="_blank"><img src="Slike/tw.png"></a>
+            <a href="https://www.youtube.com/watch?v=hMANIarjT50" target="_blank"><img src="Slike/yt.png"></a>
+            <a href="https://www.imdb.com/title/tt6468322/?ref_=ttep_ep_tt" target="_blank"><img src="Slike/imdb.png"></a>
+            <a href="https://www.netflix.com/rs/title/80192098" target="_blank"><img src="Slike/netf.png"></a>
+        </div>
+        <hr>
+        <div id="futer2">
+            <p>© 2020 All rights reserved - Dimitrije, Milan, Uroš</p>
+            <p id="datum"></p>
+        </div>
+        <hr>
+    </footer>
+
+    <script src="Skripte/skripta.js"></script>
+    <script src="Skripte/clanoviSkripta.js"></script>
+</body>
+</html>

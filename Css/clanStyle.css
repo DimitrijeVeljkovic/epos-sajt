@@ -1,0 +1,50 @@
+#sadrzajClan{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sadrzajClan p{
+    font-size: 140%;
+    text-align: justify;
+    margin: 25px;
+}
+
+#clan{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    width: 80%;
+}
+
+#clan img{
+    width: 40%;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+#meniClan{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+#meniClan a{
+    display: flex;
+    width: 70px;
+    margin: 15px;
+}
+
+#meniClan img{
+    width: 100%;
+    opacity: 65%;
+    border: 3px solid #851c1c;
+    border-radius: 20px;
+}
+
+#meniClan img:hover{
+    opacity: 100%;
+    border: 3px solid white;
+}

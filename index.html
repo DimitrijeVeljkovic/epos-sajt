@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa De Papel</title>
+    <link rel="stylesheet" href="Css/indexStyle.css" type="text/css">
+    <link rel="stylesheet" href="Css/layout.css" type="text/css">
+    <link rel="icon" href="Slike/ikonica.png">
+</head>
+<body>
+    <div id="div1">
+        <a href="index.html"><img src="Slike/naslov.png" id="naslovnaSlika"></a>
+    </div>
+    <div class="meni">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="sezone.html">Sezone</a></li>
+            <li><a href="zanimljivosti.html">Zanimljivosti</a></li>
+            <li><a href="clanovi.html">Članovi bande</a></li>
+          </ul>
+    </div>
+
+    <div id="sadrzajIndex">
+        <div id="oSeriji">
+            <h1> O seriji </h1>
+            <p>
+                Netfliksova najpoznatija serija koja nije na engleskom, <b>"La Casa De Papel"</b>, takođe poznata i kao <b>"Money Heist"</b> 
+                je španska krimi-drama. Kuća od papira je plačkaška televizijska serija stvorena od Aleksa Pina. Okreće se oko 
+                dugo pripremljenog, višednevnog napada na Kraljevsku kovnicu Španije. Serija prati priču kriminalnog uma čoveka koji 
+                sebe naziva <b>"El profesor"</b>,  koji smišlja ambiciozan plan kako bi izveo najveću pljačku u istoriji, zajedno sa osam drugih 
+                ljudi koji imaju određene sposobnosti i ništa da izgube. Na početku, bilo je truda da se serija snimi tamo gde se pljačka i 
+                odvija u prvoj sezoni, u Španskom trezoru, ali to nije bilo moguće. Kasnije je odlučeno da se snimanje odvija u prostorijama 
+                Španskog Nacionalnog Savetništva za istraživanje. Jedine scene koje su snimane na stvarnoj lokaciji su one ispred trezora. 
+                Gledaoci vole mnoge stvari o ovoj seriji, a pesma <b>"Bella ciao"</b> je sigurno jedna od njih. Pesma Ova pesma vuče korene još od 
+                kraja 19. veka kada su je pevale radnice na pirinčanim poljima severne Italije. Kasnije su je preuzeli italijanski partizani 
+                u borbi protiv nemačkog okupatora, pa italijanskih fašista, a danas se često peva kao protestna pesma slobode i otpora. 
+                Iako je priča postavljena u Kraljevskoj kovanici Španije, serija je snimljena u sedištu španskog Nacionalnog istraživačkog 
+                veća (CSIC), koje je slično kovanici u Madridu.
+            </p>
+        </div>
+        <div id="registracija">
+            <form action="" class="forma">
+                <h2>Registracija</h2>
+
+                <div class="zaValidaciju">
+                    <label for="ime">Ime: </label> 
+                    <label id="imeVal">*** Molimo unesite ime ***</label>
+                </div>
+                <input type="text" id="ime" placeholder="Unesite Vaše ime">
+
+                <div class="zaValidaciju">
+                    <label for="prezime">Prezime: </label> 
+                    <label id="prezimeVal">*** Molimo unesite prezime ***</label>
+                </div>
+                <input type="text" id="prezime" placeholder="Unesite Vaše prezime">
+
+                <div class="zaValidaciju">
+                    <label for="email">Email: </label>
+                    <label id="emailVal">*** Molimo unesite email ***</label>
+                </div> 
+                <input type="email" id="email" placeholder="Unesite email u obliku ****@****">
+
+                <div class="zaValidaciju">
+                    <label for="user">Username: </label> 
+                    <label id="userVal">*** Molimo unesite username ***</label>
+                </div>
+                <input type="text" id="user" placeholder="Unesite korisničko ime">
+
+                <div class="zaValidaciju">
+                    <label for="pass">Password: </label>
+                    <label id="passVal">*** Molimo unesite password ***</label>
+                </div> 
+                <input type="password" id="pass" placeholder="Unesite lozinku">
+
+                <div class="zaValidaciju">
+                    <label for="brtel">Broj telefona: </label> 
+                    <label id="brtelVal">*** Molimo unesite broj telefona ***</label>
+                </div>
+                <input type="number" id="brtel" placeholder="Unesite broj telefona brojevima">
+
+                <div class="zaValidaciju">
+                    <label>Pol: </label> 
+                    <label id="polVal">*** Molimo izaberite pol ***</label>
+                </div>
+                <div id="pol">
+                    <input type="radio" id="m" name="pol"> <label for="m"> Muški </label>
+                    <input type="radio" id="z" name="pol"> <label for="z"> Ženski </label> 
+                </div>
+                <div id="dugmici">
+                    <input type="button" value="Registruj se" class="dugme" onclick="validacija()">
+                    <input type="reset" value="Osveži" class="dugme" onclick="resetuj()">
+                </div>
+            </form>
+            <img src="Slike/ekipa.png" alt="">
+        </div>
+    </div>
+    
+    <footer>
+        <hr>
+        <div id="futer1">
+            <a href="https://www.instagram.com/lacasadepapel/" target="_blank"><img src="Slike/insta.png"></a>
+            <a href="https://www.facebook.com/lacasadepapelnetflix/" target="_blank"><img src="Slike/fb.png"></a>
+            <a href="https://twitter.com/lacasadepapel?lang=en" target="_blank"><img src="Slike/tw.png"></a>
+            <a href="https://www.youtube.com/watch?v=hMANIarjT50" target="_blank"><img src="Slike/yt.png"></a>
+            <a href="https://www.imdb.com/title/tt6468322/?ref_=ttep_ep_tt" target="_blank"><img src="Slike/imdb.png"></a>
+            <a href="https://www.netflix.com/rs/title/80192098" target="_blank"><img src="Slike/netf.png"></a>
+        </div>
+        <hr>
+        <div id="futer2">
+            <p>© 2020 All rights reserved - Dimitrije, Milan, Uroš</p>
+            <p id="datum"></p>
+        </div>
+        <hr>
+    </footer>
+
+    <script src="Skripte/skripta.js"></script>
+    <script src="Skripte/indexSkripta.js"></script>
+</body>
+</html>

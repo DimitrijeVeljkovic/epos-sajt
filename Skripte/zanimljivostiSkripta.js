@@ -1,0 +1,5 @@
+$(function(){
+    $("#zanimljivosti").accordion();
+});
+
+

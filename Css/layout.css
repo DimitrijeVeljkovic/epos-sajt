@@ -1,0 +1,94 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #851c1c;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+#naslovnaSlika{
+    width: 500px;
+}
+
+#div1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.meni{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.meni ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 85%;
+    border-radius: 20px;
+}
+  
+.meni li {
+    float: left;
+    width: 25%;
+    background-color: black;
+}
+  
+.meni li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.meni li a:hover {
+    background-color: #121212;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+footer hr{
+    width: 80%;
+}
+
+footer img:hover{
+    filter: invert(100%);
+}
+
+#futer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+#futer1 img{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#futer2{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}

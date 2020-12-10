@@ -1,0 +1,36 @@
+#sadrzajZanimljivosti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#naslov, #zanimljivosti {
+    width: 80%;
+}
+
+#zanimljivosti p{
+    font-size: 140%;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#zanimljivosti h3{
+    font-size: 150%;
+    text-align: center;
+}
+
+#zanimljivosti h3{
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    color: white;
+    background-color: black;
+}
+
+#zanimljivosti h3:hover{
+    background-color: #121212;
+    cursor: pointer;
+}

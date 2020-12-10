@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sezone</title>
+    <link rel="stylesheet" href="Css/sezonaStyle.css" type="text/css">
+    <link rel="stylesheet" href="Css/layout.css" type="text/css">
+    <link rel="icon" href="Slike/ikonica.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="div1">
+        <a href="index.html"><img src="Slike/naslov.png" id="naslovnaSlika"></a>
+    </div>
+    <div class="meni">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="sezone.html">Sezone</a></li>
+            <li><a href="zanimljivosti.html">Zanimljivosti</a></li>
+            <li><a href="clanovi.html">Članovi bande</a></li>
+          </ul>
+    </div>
+
+    <div id="sadrzajSezone">
+        <div id="levoIDesno">
+            <img src="Slike/levo.png" class="navigacija" id="slikaLevo" onclick="promeniLevo()">
+            <img src="Slike/desno.png" class="navigacija" id="slikaDesno" onclick="promeniDesno()">
+        </div>
+        <div id="slikaITekst">
+            <img src="Slike/sezona1.jpg" id="sezonaSlika">
+            <div id="naslovITekst">
+                <h1 id="sezonaNaslov">
+                    Sezona 1
+                </h1>
+                <p id="sezonaTekst">
+                    U prvoj sezoni koja se sastoji od dva dela i prikazana je 2017. i 2018. na španskoj televiziji 
+                    Antena 3 misteriozni profesor čiji nam motivi u startu nisu potpuno jasni okuplja grupu iskusnih 
+                    ljudi na ivici zakona: pljačkaša banaka, ratnih veterana, kriminalaca, praveći idealan tim u kom 
+                    svako ima svoj doprinos i svako je sa razlogom izabran. Kako bi zaštitio identitet svojih izabranika 
+                    profesor je svakom dodelio kodno ime po svetskim metropolama: Tokio, Berlin, Moskva, Nairobi, Rio, Denver, 
+                    Helsinki (igra ga srpski glumac Darko Perić) i Oslo. Njihov zadatak je upad u Kraljevski štampariju novca
+                    gde treba da odštampaju 2,4 milijarde evra i pobegnu. Naravno, plan nailazi na brojne komplikacije i drama 
+                    ili bolje reći melodrama može da počne. Taoci se ne ponašaju kako bi otmičari želeli, mnogi od samih pljačkaša 
+                    ne poštuju unapred dogovorena pravila, pa Denver u jednoj od odmaklih epizoda čak stupa u ljubavnu aferu 
+                    sa taocem. Za sve to vreme policija je već oko kovnice, a glavna inspektorka stupa u kontakt sa profesorom, 
+                    pa čak i u aferu sa njegovim alter egom. Pred kraj sezone ona konačno poveže da su organizator otmičara i 
+                    njen novi partner ista ličnost – ipak, odbija da ga prijavi. Sa tri izgubljena života i više nego dva puta 
+                    manje novca nego što je planirano, pljačkaši napuštaju štampariju nakon 128 sati provedenih u njoj. Inspektorka 
+                    pronalazi razglednice na kojima su zapisane koordinate lokacije na Filipinima gde je profesor očekuje da mu se pridruži.               
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <hr>
+        <div id="futer1">
+            <a href="https://www.instagram.com/lacasadepapel/" target="_blank"><img src="Slike/insta.png"></a>
+            <a href="https://www.facebook.com/lacasadepapelnetflix/" target="_blank"><img src="Slike/fb.png"></a>
+            <a href="https://twitter.com/lacasadepapel?lang=en" target="_blank"><img src="Slike/tw.png"></a>
+            <a href="https://www.youtube.com/watch?v=hMANIarjT50" target="_blank"><img src="Slike/yt.png"></a>
+            <a href="https://www.imdb.com/title/tt6468322/?ref_=ttep_ep_tt" target="_blank"><img src="Slike/imdb.png"></a>
+            <a href="https://www.netflix.com/rs/title/80192098" target="_blank"><img src="Slike/netf.png"></a>
+        </div>
+        <hr>
+        <div id="futer2">
+            <p>© 2020 All rights reserved - Dimitrije, Milan, Uroš</p>
+            <p id="datum"></p>
+        </div>
+        <hr>
+    </footer>
+
+    <script src="Skripte/skripta.js"></script>
+    <script src="Skripte/sezoneSkripta.js"></script>
+</body>
+</html>

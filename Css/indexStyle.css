@@ -1,0 +1,92 @@
+#sadrzajIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#sadrzajIndex #oSeriji{
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin: 10px;
+}
+
+#sadrzajIndex #oSeriji p{
+    font-size: 140%;
+    text-align: justify;
+}
+
+#sadrzajIndex b{
+    color: black;
+}
+
+#registracija{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+}
+
+#registracija img{
+    width: 65%;
+}
+
+.forma{
+    display: flex;
+    flex-flow: column;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 30%;
+}
+
+.forma h2{
+    text-align: center;
+}
+
+.forma input{
+    margin-bottom: 5px;
+}
+
+#pol{
+    display: flex;
+    flex-flow: row;
+}
+
+#dugmici{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.dugme{
+    margin: 5px;
+    margin-top: 15px;
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dugme:hover{
+    background-color: #121212;
+    cursor: pointer;
+}
+
+.zaValidaciju{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#imeVal, #prezimeVal, #emailVal, #userVal, #passVal, #brtelVal, #polVal{
+    display: none;
+    margin-left: 15px;
+    color: rgb(0, 153, 255);
+}
