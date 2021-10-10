@@ -1,1 +1,3 @@
-document.getElementById("datum").innerHTML = Date();
+setInterval(()=>{
+    document.getElementById("datum").innerHTML = Date();
+},500);
